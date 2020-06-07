@@ -225,6 +225,11 @@ def five_rowsv2(df):
             break
 
 def main():
+    """
+    This is the main function where we run all previously worked out function above.
+
+    It starts by getting users input trhough get_filter() and ends with asking whether user would like to restart.
+    """
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
