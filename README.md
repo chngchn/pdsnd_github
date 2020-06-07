@@ -10,12 +10,13 @@ The US Bikeshare Data Exploration Project was the culmination of the Python prog
 In this project, I created a simple Python program that returns brief statistical results from the bikeshare data provided, based on users' input.
 
 ### Files used
-The files used in this project: bikeshare.py
+Main file used in this project:
+* bikeshare.py
 
-Data files include:
-1. chicago.csv
-2. new_york_city.csv
-3. washington.csv
+Data files used:
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
 Credits go to Udacity reviewers and mentors who provided guidance in the course.
