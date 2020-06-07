@@ -213,7 +213,7 @@ def five_rowsv2(df):
             print("I'm sorry, but that's not a valid input. Let's try again.\n")
             continue
         elif prompt_five == 'yes':
-            print("\nRaw data:\n", df.iloc[starting_row:ending_row])
+            print("\nPrinting data ...\n", df.iloc[starting_row:ending_row])
             starting_row += 5
             ending_row += 5
 
